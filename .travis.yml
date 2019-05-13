@@ -6,4 +6,4 @@ before_install:
   - docker build -t lioartoil/docker-react-2 -f Dockerfile.dev .
 
 script:
-  - docker run lioartoil/docker-react-2 npm run test -- --coverage
+  - docker run lioartoil/docker-react-2 npm run test
